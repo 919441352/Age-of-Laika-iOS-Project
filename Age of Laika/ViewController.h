@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *noOfYearsLabel;
+@property (weak, nonatomic) IBOutlet UITextField *noOfYearsTF;
+@property (weak, nonatomic) IBOutlet UILabel *realConverterLabel;
+- (IBAction)convert:(UIButton *)sender;
+- (IBAction)realDogConverter:(id)sender;
 
 @end
 
