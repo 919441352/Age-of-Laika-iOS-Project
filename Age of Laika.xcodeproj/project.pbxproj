@@ -15,6 +15,7 @@
 		2A55281D1A6B499500B86B27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A55281B1A6B499500B86B27 /* LaunchScreen.xib */; };
 		2A5528291A6B499500B86B27 /* Age_of_LaikaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5528281A6B499500B86B27 /* Age_of_LaikaTests.m */; };
 		2A5528331A6B4B1F00B86B27 /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A5528321A6B4B1F00B86B27 /* BorderCollie.jpg */; };
+		2AE96BDC1A7421D9008D59E5 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE96BDB1A7421D9008D59E5 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		2A5528271A6B499500B86B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A5528281A6B499500B86B27 /* Age_of_LaikaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Age_of_LaikaTests.m; sourceTree = "<group>"; };
 		2A5528321A6B4B1F00B86B27 /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		2AE96BDA1A7421D9008D59E5 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		2AE96BDB1A7421D9008D59E5 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				2A5528321A6B4B1F00B86B27 /* BorderCollie.jpg */,
 				2A5528131A6B499500B86B27 /* ViewController.h */,
 				2A5528141A6B499500B86B27 /* ViewController.m */,
+				2AE96BDA1A7421D9008D59E5 /* TestClass.h */,
+				2AE96BDB1A7421D9008D59E5 /* TestClass.m */,
 				2A5528161A6B499500B86B27 /* Main.storyboard */,
 				2A5528191A6B499500B86B27 /* Images.xcassets */,
 				2A55281B1A6B499500B86B27 /* LaunchScreen.xib */,
@@ -223,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE96BDC1A7421D9008D59E5 /* TestClass.m in Sources */,
 				2A5528151A6B499500B86B27 /* ViewController.m in Sources */,
 				2A5528121A6B499500B86B27 /* AppDelegate.m in Sources */,
 				2A55280F1A6B499500B86B27 /* main.m in Sources */,
@@ -418,6 +424,7 @@
 				2A55282E1A6B499500B86B27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A55282F1A6B499500B86B27 /* Build configuration list for PBXNativeTarget "Age of LaikaTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				2A5528311A6B499500B86B27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
